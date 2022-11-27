@@ -3,6 +3,7 @@ var object = {
   surname: 'Costache',
   age: 24,
   petOwner: false,
+  carOwner: true,
 };
 
 console.warn(`
@@ -11,10 +12,6 @@ console.warn(`
 
 console.log(object.name);
 console.log(object.age.toString());
-
-console.warn(`
-
-`);
 
 console.log(
   'Ma numesc ' +
@@ -26,8 +23,10 @@ console.log(
     ' ani.',
 );
 
-console.warn(`
+console.log(
+  object.name + ' ' + object.surname + ' are ' + object.age + ' ani.',
+);
 
-`);
+console.log(object.name + ' s-a nascut in 1998.');
 
 console.log((2022 - object.age).toString());
