@@ -104,6 +104,7 @@ console.log(
 console.log(person.friends.larry.surname.length.toString());
 
 console.log(
-  person.friends.steven.name.length.toString() -
-    person.friends.carol.name.length.toString(),
+  (
+    person.friends.steven.name.length - person.friends.carol.name.length
+  ).toString(),
 );
