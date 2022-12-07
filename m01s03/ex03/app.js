@@ -59,3 +59,15 @@ console.log(
     ' ' +
     carol.friends.andra.friends.person.surname,
 );
+
+console.log(
+  person.friends.steven.friends.larry.name +
+    ' ' +
+    person.friends.steven.friends.larry.surname,
+);
+
+console.log(
+  (
+    andra.friends.person.name.length + andra.friends.person.surname.length
+  ).toString(),
+);
